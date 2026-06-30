@@ -4,7 +4,7 @@
 
 This document outlines a structured approach for diagnosing and resolving technical issues in an IT support environment. Following a consistent process helps reduce resolution time, improve documentation, and provide a better support experience for end users.
 
-![IT Troubleshooting Methodology](images/troubleshooting-methodology-flowchart.png)
+![IT Troubleshooting Methodology Flowchart](images/troubleshooting-methodology-flowchart.png)
 
 ---
 
