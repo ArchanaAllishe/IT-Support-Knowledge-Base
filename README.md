@@ -4,6 +4,8 @@ A collection of practical notes, troubleshooting guides, and standard operating 
 
 This repository is maintained as a personal technical reference to document repeatable workflows, troubleshooting methods, and best practices for supporting Windows environments, Microsoft technologies, networking, hardware, and end users.
 
+![IT Support Knowledge Base Overview](assets/knowledge-base-overview.png)
+
 ---
 
 ## Objectives
