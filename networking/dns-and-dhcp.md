@@ -17,6 +17,8 @@ This guide explains the roles of Domain Name System (DNS) and Dynamic Host Confi
 
 ![DNS vs DHCP Comparison](images/dns-vs-dhcp-comparison.png)
 
+> **Quick Tip:** DHCP gives a device its network configuration (IP address, subnet mask, gateway, and DNS server). DNS uses that configuration to translate domain names (such as `www.microsoft.com`) into IP addresses so the device can communicate with resources on the network or internet.
+
 ---
 
 ## Overview
