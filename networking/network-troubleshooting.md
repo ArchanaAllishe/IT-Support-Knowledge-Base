@@ -5,6 +5,7 @@
 This guide provides a structured approach for diagnosing and resolving common network connectivity issues in Windows environments. It covers wired and wireless connections, IP configuration, DNS resolution, and internet access using standard troubleshooting techniques.
 
 ![Network Troubleshooting Flowchart](images/network-troubleshooting-flowchart.png)
+
 ---
 
 ## Scope
@@ -65,7 +66,8 @@ For Wi-Fi connections:
 
 ## Example Network Topology
 
-![Typical Network Topology](images/network-topology-example.png)
+![Network Topology Example](images/network-topology-example.png)
+
 
 ---
 
@@ -83,6 +85,7 @@ Verify:
 ## Windows Network Settings
 
 ![Windows Network Settings](images/windows-network-settings.png)
+
 
 ---
 
@@ -121,6 +124,7 @@ Possible solutions include:
 | `ipconfig /release`        | Release the current IP 
 
 ![IPConfig Example](images/ipconfig-example.png)
+
 
 address         |
 | `ipconfig /renew`          | Request a new IP address               |
