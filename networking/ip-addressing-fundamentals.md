@@ -110,6 +110,18 @@ Hosts:
 ...
 192.168.1.254
 ```
+---
+
+## Understanding Subnet Masks
+
+![Subnet Mask Explained](images/subnet-mask-explained.png)
+
+> **Quick Tip:** A subnet mask separates an IP address into two parts:
+>
+> - **Network portion** – identifies the network.
+> - **Host portion** – identifies an individual device on that network.
+>
+> For a **/24** network (`255.255.255.0`), the first three octets identify the network and the last octet identifies the host.
 
 ---
 
@@ -131,6 +143,29 @@ Internet
 ```
 
 If the gateway is unreachable, users typically cannot access internet resources.
+
+---
+
+## Default Gateway in Action
+
+![Default Gateway Diagram](images/default-gateway-diagram.png)
+
+> **Quick Tip:** Devices communicate directly with other devices on the same local network. When the destination is outside the local subnet (such as a website on the internet), the traffic is sent to the **default gateway**, which forwards it toward the correct destination.
+
+### Common Default Gateway Issues
+
+Typical symptoms include:
+
+- Unable to browse the internet
+- Can reach local devices but not external websites
+- `ping` to the default gateway fails
+- Incorrect gateway configured manually
+
+When troubleshooting, verify the configured default gateway using:
+
+```text
+ipconfig /all
+```
 
 ---
 
@@ -198,6 +233,28 @@ Example:
 ```
 
 This usually indicates a DHCP communication problem.
+
+---
+
+## APIPA Troubleshooting Example
+
+![APIPA Example](images/apipa-example.png)
+
+> **Quick Tip:** If you see an IP address in the **169.254.x.x** range, Windows was unable to obtain an IP address from a DHCP server. Before assuming the network is down, verify:
+>
+> - The network cable or Wi-Fi connection is working.
+> - The DHCP server is available.
+> - The network adapter is enabled.
+> - The router or switch is functioning properly.
+>
+> Try the following commands:
+>
+> ```text
+> ipconfig /release
+> ipconfig /renew
+> ipconfig /all
+> ```
+
 
 ---
 
