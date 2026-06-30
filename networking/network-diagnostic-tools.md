@@ -132,6 +132,10 @@ nslookup www.microsoft.com
 * Identify DNS server issues
 * Confirm hostname-to-IP mapping
 
+## Example Output
+
+![NSLookup Example](images/nslookup-example.png)
+
 ---
 
 # netstat
