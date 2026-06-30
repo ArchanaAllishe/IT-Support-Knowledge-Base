@@ -13,6 +13,12 @@ This guide explains the roles of Domain Name System (DNS) and Dynamic Host Confi
 
 ---
 
+## DNS vs DHCP at a Glance
+
+![DNS vs DHCP Comparison](images/dns-vs-dhcp-comparison.png)
+
+---
+
 ## Overview
 
 ### What is DNS?
