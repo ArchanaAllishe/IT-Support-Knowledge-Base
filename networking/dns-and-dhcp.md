@@ -42,6 +42,11 @@ Typical settings include:
 * Default Gateway
 * DNS Server
 
+
+## DHCP IP Assignment Process
+
+![DHCP IP Assignment Process](images/dhcp-ip-assignment-process.png)
+
 Without DHCP, each device would need to be configured manually.
 
 ---
