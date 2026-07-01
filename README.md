@@ -77,5 +77,6 @@ The guides in this repository reflect that learning process and are intended to 
 
 AI was used to assist with drafting this documentation. All content has been reviewed, verified, and organized by me as part of my learning and skill refresh.
 
+---
 
 **License:** MIT
