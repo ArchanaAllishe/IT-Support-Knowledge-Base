@@ -1,3 +1,12 @@
+## About
+
+This repository documents my journey of refreshing and strengthening my IT support knowledge after a career break. As I revisited core concepts, practiced troubleshooting, and explored current technologies, I organized my notes, procedures, and reference material into a structured knowledge base.
+
+The guides in this repository reflect that learning process and are intended to serve as a practical reference for common desktop support, Windows administration, networking, Active Directory, Microsoft Office, and IT troubleshooting tasks.
+
+
+---
+
 # IT Support Knowledge Base
 
 A practical collection of IT support documentation, troubleshooting guides, and technical reference material for desktop support, Windows administration, networking, and Microsoft Office.
@@ -61,15 +70,6 @@ IT-Support-Knowledge-Base/
 ├── windows/
 └── README.md
 ```
-
----
-
-## About
-
-This repository documents my journey of refreshing and strengthening my IT support knowledge after a career break. As I revisited core concepts, practiced troubleshooting, and explored current technologies, I organized my notes, procedures, and reference material into a structured knowledge base.
-
-The guides in this repository reflect that learning process and are intended to serve as a practical reference for common desktop support, Windows administration, networking, Active Directory, Microsoft Office, and IT troubleshooting tasks.
-
 
 ---
 
