@@ -7,10 +7,6 @@ The guides in this repository reflect that learning process and are intended to 
 
 ---
 
-# IT Support Knowledge Base
-
-A practical collection of IT support documentation, troubleshooting guides, and technical reference material for desktop support, Windows administration, networking, and Microsoft Office.
-
 <p align="center">
   <img src="assets/knowledge-map.png" alt="IT Support Knowledge Base" width="100%">
 </p>
