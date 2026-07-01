@@ -8,7 +8,10 @@ Organizations of all sizes rely on databases to support their daily operations. 
 
 Databases help ensure that information is accurate, secure, and easily accessible by authorized users and applications.
 
-> *(Insert **database-overview.png** here.)*
+
+![Database Overview](images/database-overview.png)
+
+> **Quick Tip:** A database serves as a centralized repository that securely stores, organizes, and provides access to information used by applications and users.
 
 ---
 
@@ -43,7 +46,10 @@ Databases are the foundation of modern applications and business systems. They p
 
 Different applications use different database technologies depending on their requirements.
 
-> *(Insert **database-types.png** here.)*
+
+![Database Types](images/database-types.png)
+
+> **Quick Tip:** Relational databases are the most common in enterprise environments, while NoSQL databases are often used for flexible or large-scale data storage.
 
 | Database Type       | Description                                          | Examples                                |
 | ------------------- | ---------------------------------------------------- | --------------------------------------- |
@@ -58,7 +64,10 @@ Different applications use different database technologies depending on their re
 
 A database system consists of several components that work together to store, organize, secure, and retrieve information.
 
-> *(Insert **database-components.png** here.)*
+
+![Database Components](images/database-components.png)
+
+> **Quick Tip:** A database system consists of multiple components that work together to securely store, organize, and retrieve information.
 
 | Component          | Description                                             |
 | ------------------ | ------------------------------------------------------- |
@@ -85,7 +94,9 @@ A typical connection process is:
 5. The requested database is accessed.
 6. Data is returned to the application.
 
-> *(Insert **database-connectivity-overview.png** here.)*
+![Database Connectivity Overview](images/database-connectivity-overview.png)
+
+> **Quick Tip:** Most connectivity issues occur between the application, database driver, network, authentication service, or database server. Understanding the connection flow helps identify where problems occur.
 
 Understanding this process helps IT support professionals troubleshoot connection problems more efficiently by identifying where failures occur.
 
