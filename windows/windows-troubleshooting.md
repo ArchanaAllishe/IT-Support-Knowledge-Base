@@ -191,6 +191,12 @@ Windows includes several built-in tools that help identify and resolve common is
 
 ---
 
+![Event Viewer Overview](images/event-viewer-overview.png)
+
+> **Quick Tip:** Event Viewer records application, system, and security events. It helps IT support professionals investigate crashes, driver failures, Windows updates, service issues, and other system errors by reviewing detailed event logs.
+
+---
+
 ## Command-Line Tools
 
 Command-line utilities are frequently used by IT support professionals for diagnostics and troubleshooting.
