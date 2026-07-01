@@ -66,7 +66,10 @@ IT-Support-Knowledge-Base/
 
 ## About
 
-The goal of this repository is to document practical IT support knowledge in a structured, easy-to-navigate format. Each guide focuses on real-world procedures, troubleshooting workflows, and technical concepts commonly encountered in desktop support and systems administration.
+This repository documents my journey of refreshing and strengthening my IT support knowledge after a career break. As I revisited core concepts, practiced troubleshooting, and explored current technologies, I organized my notes, procedures, and reference material into a structured knowledge base.
+
+The guides in this repository reflect that learning process and are intended to serve as a practical reference for common desktop support, Windows administration, networking, Active Directory, Microsoft Office, and IT troubleshooting tasks.
+
 
 ---
 
