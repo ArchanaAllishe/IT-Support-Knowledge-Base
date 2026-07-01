@@ -122,7 +122,6 @@ Maintaining accurate directory information improves communication and administra
 
 Security groups simplify permission management by assigning permissions to groups instead of individual users. Instead of granting access to each user separately, administrators add users to a security group, and the group is granted access to the required resources.
 
-### How Security Groups Work
 
 ![Active Directory Security Groups](images/security-groups-explained.png)
 
@@ -157,16 +156,45 @@ OUs simplify administration, delegation, and Group Policy management.
 
 ---
 
-## Employee Lifecycle
+## User Account Lifecycle
 
-A typical user account lifecycle includes:
+A user account progresses through several stages during its lifetime—from onboarding a new employee to managing access throughout employment and securely disabling the account when the employee leaves. Following a consistent lifecycle helps maintain security, compliance, and operational efficiency.
 
-1. Create the account.
-2. Assign the appropriate OU.
-3. Add required security groups.
-4. Verify resource access.
-5. Update account information as needed.
-6. Disable the account when employment ends.
+### User Account Lifecycle Overview
+
+![User Account Lifecycle](images/user-account-lifecycle.png)
+
+### Typical Lifecycle
+
+1. **Onboarding**
+   - Create the user account.
+   - Assign the appropriate Organizational Unit (OU).
+   - Add required security groups.
+   - Set an initial password.
+   - Provide access to required resources.
+
+2. **Active Account Management**
+   - Reset passwords.
+   - Unlock accounts.
+   - Update user information.
+   - Manage group memberships.
+
+3. **Role or Department Changes**
+   - Update department or title.
+   - Modify group memberships.
+   - Move the user to another OU if required.
+   - Adjust resource permissions.
+
+4. **Offboarding**
+   - Disable the account.
+   - Remove unnecessary access.
+   - Revoke licenses and permissions.
+
+5. **Deprovisioning**
+   - Archive or remove the account according to company policy.
+   - Retain data as required by organizational or regulatory policies.
+
+> **Best Practice:** Review user accounts and group memberships regularly and follow the principle of least privilege to ensure users have only the access necessary for their current role.
 
 ---
 
