@@ -71,7 +71,13 @@ The guides in this repository reflect that learning process and serve as a pract
 
 ### 🗄️ Database
 
-* ODBC & SQL Server Connectivity
+* [ODBC & SQL Server Connectivity](database/odbc-sql-server-connectivity.md#what-is-odbc)
+* [SQL Server Management Studio (SSMS) Basics](database/odbc-sql-server-connectivity.md#sql-server-management-studio-ssms-basics)
+* [Common Database Connectivity Issues](database/odbc-sql-server-connectivity.md#common-database-connectivity-issues)
+* [SQL Server Authentication](database/odbc-sql-server-connectivity.md#sql-server-authentication)
+* [Database Backup & Restore Basics](database/odbc-sql-server-connectivity.md#database-backup--restore-basics)
+* [Database Troubleshooting Checklist](database/odbc-sql-server-connectivity.md#database-troubleshooting-checklist)
+
 
 ---
 
