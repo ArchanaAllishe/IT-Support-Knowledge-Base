@@ -183,7 +183,11 @@ Windows includes several built-in tools that help identify and resolve common is
 ![Task Manager Overview](images/task-manager-overview.png)
 
 > **Quick Tip:** Task Manager is often the first tool used to identify high CPU, memory, disk, or network usage, stop unresponsive applications, and monitor overall system performance.
+---
 
+![Device Manager Overview](images/device-manager-overview.png)
+
+> **Quick Tip:** Device Manager helps identify hardware problems, missing drivers, disabled devices, and devices with warning icons. It is commonly used to update, roll back, enable, disable, or uninstall device drivers during troubleshooting.
 
 ---
 
