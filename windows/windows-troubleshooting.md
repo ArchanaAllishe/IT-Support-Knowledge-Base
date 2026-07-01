@@ -213,8 +213,10 @@ Command-line utilities are frequently used by IT support professionals for diagn
 | `DISM /Online /Cleanup-Image /RestoreHealth` | Repair the Windows system image.                |
 | `chkdsk`                                     | Scan and repair disk errors.                    |
 
-> *(Insert **windows-repair-commands.png** here.)*
 
+![Windows Repair Commands](images/windows-repair-commands.png)
+
+> **Quick Tip:** Start with **`sfc /scannow`** to repair corrupted system files. If problems persist, use **DISM** to repair the Windows image. Use **chkdsk** for disk errors and **bootrec** commands only when troubleshooting startup or boot issues.
 ---
 
 ## Verification
