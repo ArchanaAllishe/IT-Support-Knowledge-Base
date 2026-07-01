@@ -6,9 +6,6 @@ Active Directory (AD) is Microsoft's centralized directory service used to manag
 
 Instead of managing accounts on individual computers, administrators use Active Directory to authenticate users, control access to resources, enforce security policies, and simplify system administration.
 
----
-
-## Active Directory Overview
 
 ![Active Directory Overview](images/active-directory-overview.png)
 
@@ -39,9 +36,6 @@ Active Directory helps organizations:
 | **Organizational Unit (OU)** | Organizes users, computers, and groups into logical containers. |
 | **Domain**                   | A security boundary that contains Active Directory objects.     |
 
----
-
-## Example Active Directory Structure
 
 ![Active Directory Structure](images/ad-structure-example.png)
 
@@ -68,7 +62,6 @@ Common user account management tasks include:
 
 Password resets are one of the most common requests handled by IT support. Before resetting a password, the user's identity should always be verified according to the organization's security policies.
 
-### Password Reset Workflow
 
 ![Password Reset Workflow](images/password-reset-workflow.png)
 
