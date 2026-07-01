@@ -120,14 +120,20 @@ Maintaining accurate directory information improves communication and administra
 
 ## Managing Group Membership
 
-Security groups simplify permission management by assigning permissions to groups instead of individual users.
+Security groups simplify permission management by assigning permissions to groups instead of individual users. Instead of granting access to each user separately, administrators add users to a security group, and the group is granted access to the required resources.
 
-Common tasks include:
+### How Security Groups Work
 
-* Adding users to groups
-* Removing users from groups
-* Verifying memberships
-* Confirming access after changes
+![Active Directory Security Groups](images/security-groups-explained.png)
+
+### Common Tasks
+
+- Add users to security groups
+- Remove users from security groups
+- Verify group memberships
+- Confirm user access after changes
+
+> **Best Practice:** Assign permissions to **groups**, not individual users. This simplifies administration, improves consistency, and follows the principle of least privilege.
 
 ---
 
