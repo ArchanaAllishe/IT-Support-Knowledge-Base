@@ -4,9 +4,7 @@ Windows troubleshooting is the systematic process of identifying, diagnosing, an
 
 A structured troubleshooting approach helps IT support professionals minimize downtime, identify root causes efficiently, and restore normal system operation while providing a consistent support experience.
 
-![Windows Troubleshooting Workflow](images/windows-troubleshooting-workflow.png)
 
-> **Quick Tip:** Following a structured troubleshooting process helps IT support professionals identify root causes efficiently, reduce downtime, and provide consistent support.
 
 ---
 
@@ -23,9 +21,9 @@ Following a consistent troubleshooting methodology helps to:
 
 ---
 
-## Windows Troubleshooting Workflow
+![Windows Troubleshooting Workflow](images/windows-troubleshooting-workflow.png)
 
-> *(Insert **windows-troubleshooting-workflow.png** here.)*
+> **Quick Tip:** Following a structured troubleshooting process helps IT support professionals identify root causes efficiently, reduce downtime, and provide consistent support.
 
 ---
 
@@ -182,11 +180,10 @@ Windows includes several built-in tools that help identify and resolve common is
 | Windows Update  | Install security and feature updates.                             |
 | Settings        | Configure Windows devices, accounts, network, and system options. |
 
-> *(Insert **task-manager-overview.png** here.)*
+![Task Manager Overview](images/task-manager-overview.png)
 
-> *(Insert **device-manager-overview.png** here.)*
+> **Quick Tip:** Task Manager is often the first tool used to identify high CPU, memory, disk, or network usage, stop unresponsive applications, and monitor overall system performance.
 
-> *(Insert **event-viewer-overview.png** here.)*
 
 ---
 
