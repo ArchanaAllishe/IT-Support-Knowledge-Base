@@ -82,6 +82,10 @@ Following a consistent troubleshooting methodology helps to:
 * Corrupted system files
 * Recent hardware or software changes
 
+![BSOD Troubleshooting](images/bsod-troubleshooting.png)
+
+> **Quick Tip:** Record the stop code displayed on the blue screen before restarting. It provides valuable information for identifying the underlying cause, such as faulty drivers, hardware failures, or corrupted system files.
+
 #### Troubleshooting Steps
 
 * Record the stop code.
