@@ -169,6 +169,10 @@ ping
 * Driver issue
 * Network connectivity problem
 
+![Printer Troubleshooting](images/printer-troubleshooting.png)
+
+> **Quick Tip:** Before reinstalling drivers, verify the printer is powered on, connected to the correct network or USB port, and set as the default printer. Many printing issues are resolved by restarting the Print Spooler service or clearing the print queue.
+
 #### Troubleshooting Steps
 
 * Verify printer power and network connection.
