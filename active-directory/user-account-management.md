@@ -79,7 +79,6 @@ Typical process:
 
 An account lockout occurs when a user exceeds the organization's allowed number of unsuccessful sign-in attempts. This security feature helps protect accounts from unauthorized access.
 
-### Account Lockout Workflow
 
 ![Account Lockout Flowchart](images/account-lockout-flowchart.png)
 
