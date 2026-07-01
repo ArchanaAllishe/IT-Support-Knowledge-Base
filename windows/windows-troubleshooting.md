@@ -103,19 +103,23 @@ sfc /scannow
 
 #### Common Causes
 
-* Power issue
-* Boot configuration problem
-* Corrupted operating system
-* Failed hardware
+- Power issue
+- Boot configuration problem
+- Corrupted operating system
+- Failed hardware
+
+![Startup Repair Process](images/startup-repair-process.png)
+
+> **Quick Tip:** Startup Repair in the Windows Recovery Environment (WinRE) can automatically detect and fix many startup problems caused by corrupted boot files, system configuration issues, or failed updates.
 
 #### Troubleshooting Steps
 
-* Verify power connections.
-* Check the monitor and display cables.
-* Disconnect unnecessary peripherals.
-* Boot into the Windows Recovery Environment (WinRE).
-* Run Startup Repair.
-* Review BIOS/UEFI boot settings if necessary.
+- Verify power connections.
+- Check the monitor and display cables.
+- Disconnect unnecessary peripherals.
+- Boot into the Windows Recovery Environment (WinRE).
+- Run Startup Repair.
+- Review BIOS/UEFI boot settings if necessary.
 
 ---
 
