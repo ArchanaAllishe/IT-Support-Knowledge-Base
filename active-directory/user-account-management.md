@@ -8,6 +8,14 @@ Instead of managing accounts on individual computers, administrators use Active 
 
 ---
 
+## Active Directory Overview
+
+![Active Directory Overview](images/active-directory-overview.png)
+
+> **Quick Tip:** Active Directory provides a centralized way to manage identities, devices, permissions, and security policies across an organization's network.
+
+---
+
 ## Why is Active Directory Important?
 
 Active Directory helps organizations:
@@ -30,6 +38,14 @@ Active Directory helps organizations:
 | **Group**                    | Used to assign permissions to multiple users at once.           |
 | **Organizational Unit (OU)** | Organizes users, computers, and groups into logical containers. |
 | **Domain**                   | A security boundary that contains Active Directory objects.     |
+
+---
+
+## Example Active Directory Structure
+
+![Active Directory Structure](images/ad-structure-example.png)
+
+> **Quick Tip:** Most organizations organize Active Directory by department, location, or business function using Organizational Units (OUs). This structure simplifies administration and allows administrators to apply different security policies where needed.
 
 ---
 
