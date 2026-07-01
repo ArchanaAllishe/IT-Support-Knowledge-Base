@@ -112,6 +112,12 @@ sfc /scannow
 
 > **Quick Tip:** Startup Repair in the Windows Recovery Environment (WinRE) can automatically detect and fix many startup problems caused by corrupted boot files, system configuration issues, or failed updates.
 
+---
+![Windows Update Troubleshooting](images/windows-update-troubleshooting.png)
+
+> **Quick Tip:** Most Windows Update issues can be resolved by checking network connectivity, running the built-in Windows Update Troubleshooter, ensuring sufficient disk space, and restarting the Windows Update services.
+---
+
 #### Troubleshooting Steps
 
 - Verify power connections.
