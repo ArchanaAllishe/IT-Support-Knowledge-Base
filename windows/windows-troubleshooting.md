@@ -4,8 +4,6 @@ Windows troubleshooting is the systematic process of identifying, diagnosing, an
 
 A structured troubleshooting approach helps IT support professionals minimize downtime, identify root causes efficiently, and restore normal system operation while providing a consistent support experience.
 
-### Windows Troubleshooting Workflow
-
 ![Windows Troubleshooting Workflow](images/windows-troubleshooting-workflow.png)
 
 > **Quick Tip:** Following a structured troubleshooting process helps IT support professionals identify root causes efficiently, reduce downtime, and provide consistent support.
