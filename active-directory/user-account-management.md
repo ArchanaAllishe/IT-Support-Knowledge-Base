@@ -77,20 +77,29 @@ Typical process:
 
 ## Account Lockout
 
-Accounts may become locked after multiple unsuccessful sign-in attempts.
+An account lockout occurs when a user exceeds the organization's allowed number of unsuccessful sign-in attempts. This security feature helps protect accounts from unauthorized access.
 
-Common causes include:
+### Account Lockout Workflow
 
-* Incorrect password
-* Cached credentials
-* Password changed on another device
-* Mobile devices repeatedly using an old password
+![Account Lockout Flowchart](images/account-lockout-flowchart.png)
 
-Typical resolution:
+### Common Causes
 
-* Verify the cause of the lockout.
-* Unlock the account if appropriate.
-* Confirm successful sign-in.
+- Incorrect password entered multiple times
+- Cached credentials on another device
+- Password changed but not updated on all devices
+- Mobile devices or applications repeatedly using an old password
+
+### Typical Resolution
+
+1. Verify the user's identity.
+2. Determine the cause of the lockout.
+3. Unlock the account if appropriate.
+4. Ask the user to sign in again.
+5. Verify access to required resources.
+6. Document the action if required by organizational policy.
+
+> **Tip:** Unlocking an account resolves the immediate issue, but identifying the root cause helps prevent repeated lockouts.
 
 ---
 
