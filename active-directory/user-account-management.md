@@ -66,14 +66,19 @@ Common user account management tasks include:
 
 ## Password Reset
 
-Password resets are one of the most common IT support requests.
+Password resets are one of the most common requests handled by IT support. Before resetting a password, the user's identity should always be verified according to the organization's security policies.
+
+### Password Reset Workflow
+
+![Password Reset Workflow](images/password-reset-workflow.png)
 
 Typical process:
 
 1. Verify the user's identity.
-2. Reset the password.
+2. Reset the password in Active Directory.
 3. Require a password change at the next sign-in (if applicable).
 4. Confirm the user can successfully sign in.
+5. Document the action if required by organizational policy.
 
 ---
 
