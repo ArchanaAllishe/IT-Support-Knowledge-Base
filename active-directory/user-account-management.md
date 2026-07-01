@@ -1,183 +1,154 @@
 # Active Directory User Account Management
 
-## Purpose
+## What is Active Directory?
 
-This document outlines common user account administration tasks performed in Active Directory. It serves as a reference for managing user accounts, access permissions, and account lifecycle activities in a Windows domain environment.
+Active Directory (AD) is Microsoft's centralized directory service used to manage users, computers, groups, and other network resources within an organization.
 
----
-
-## Scope
-
-This guide applies to common Active Directory user administration tasks, including:
-
-* User account updates
-* Password resets
-* Account lockout resolution
-* Account enable/disable
-* Security group management
-* Organizational Unit (OU) management
-* Employee onboarding
-* Employee offboarding
+Instead of managing accounts on individual computers, administrators use Active Directory to authenticate users, control access to resources, enforce security policies, and simplify system administration.
 
 ---
 
-# Common User Administration Tasks
+## Why is Active Directory Important?
 
-| Task                    | Description                                                               |
-| ----------------------- | ------------------------------------------------------------------------- |
-| Create User Account     | Create a new user account following organizational naming standards.      |
-| Reset Password          | Reset a user's password after verifying identity.                         |
-| Unlock Account          | Unlock an account locked due to failed sign-in attempts.                  |
-| Enable Account          | Re-enable a disabled user account.                                        |
-| Disable Account         | Disable accounts for terminated employees or extended leave.              |
-| Update User Information | Modify job title, department, manager, office location, or phone number.  |
-| Manage Group Membership | Add or remove users from security or distribution groups.                 |
-| Move User to an OU      | Place users in the appropriate Organizational Unit for policy management. |
+Active Directory helps organizations:
+
+* Centralize user and computer management
+* Authenticate users securely
+* Control access to shared resources
+* Apply security policies using Group Policy
+* Simplify onboarding and offboarding
+* Improve security and administrative efficiency
 
 ---
 
-# Password Reset Procedure
+## Common Active Directory Objects
 
-## When to Use
-
-* User forgot password
-* Password expired
-* Temporary password required
-* Password compromised
-
-## Procedure
-
-1. Verify the user's identity according to company policy.
-2. Open **Active Directory Users and Computers (ADUC)**.
-3. Locate the user account.
-4. Right-click the account and select **Reset Password**.
-5. Enter a temporary password.
-6. Select **User must change password at next logon**.
-7. Provide the temporary password securely to the user.
-
-## Verification
-
-Confirm that:
-
-* The user can sign in successfully.
-* The password is changed.
-* The account is no longer locked.
+| Object                       | Description                                                     |
+| ---------------------------- | --------------------------------------------------------------- |
+| **User**                     | Represents an employee or user account.                         |
+| **Computer**                 | Represents a domain-joined workstation or server.               |
+| **Group**                    | Used to assign permissions to multiple users at once.           |
+| **Organizational Unit (OU)** | Organizes users, computers, and groups into logical containers. |
+| **Domain**                   | A security boundary that contains Active Directory objects.     |
 
 ---
 
-# Account Lockout Resolution
+## Common IT Support Tasks
 
-## Common Causes
+Common user account management tasks include:
 
-* Incorrect password entered multiple times
-* Cached credentials
-* Mobile device using an old password
-* Outlook repeatedly attempting authentication
-* Mapped network drives using outdated credentials
+* Creating user accounts
+* Resetting passwords
+* Unlocking accounts
+* Updating user information
+* Enabling or disabling accounts
+* Managing group memberships
+* Moving users between Organizational Units (OUs)
+* Verifying account properties and permissions
 
-## Resolution
+---
+
+## Password Reset
+
+Password resets are one of the most common IT support requests.
+
+Typical process:
 
 1. Verify the user's identity.
-2. Open the user account in ADUC.
-3. Unlock the account.
-4. Confirm the user can sign in.
-5. Investigate the root cause to prevent repeated lockouts.
+2. Reset the password.
+3. Require a password change at the next sign-in (if applicable).
+4. Confirm the user can successfully sign in.
 
 ---
 
-# Updating User Information
+## Account Lockout
 
-Common updates include:
+Accounts may become locked after multiple unsuccessful sign-in attempts.
+
+Common causes include:
+
+* Incorrect password
+* Cached credentials
+* Password changed on another device
+* Mobile devices repeatedly using an old password
+
+Typical resolution:
+
+* Verify the cause of the lockout.
+* Unlock the account if appropriate.
+* Confirm successful sign-in.
+
+---
+
+## Updating User Information
+
+IT support may update user account information such as:
 
 * Display name
-* Department
 * Job title
-* Manager
+* Department
 * Office location
-* Telephone number
-* Email aliases (where applicable)
+* Phone number
+* Manager
+* Email-related attributes (where applicable)
 
-Always verify the requested changes before making updates.
-
----
-
-# Security Group Management
-
-Security groups are commonly used to provide access to:
-
-* Shared folders
-* Network printers
-* Business applications
-* Departmental resources
-
-## Procedure
-
-1. Verify the access request has been approved.
-2. Locate the user account.
-3. Open **Properties**.
-4. Select the **Member Of** tab.
-5. Add or remove the appropriate group.
-6. Save the changes.
-7. Ask the user to sign out and sign back in if necessary.
+Maintaining accurate directory information improves communication and administration.
 
 ---
 
-# Employee Onboarding
+## Managing Group Membership
 
-Typical onboarding tasks include:
+Security groups simplify permission management by assigning permissions to groups instead of individual users.
 
-* Create user account
-* Assign username
-* Set temporary password
-* Add required security groups
-* Configure email account
-* Assign Microsoft 365 license (if applicable)
-* Verify initial sign-in
+Common tasks include:
 
----
-
-# Employee Offboarding
-
-Typical offboarding tasks include:
-
-* Disable the user account
-* Remove unnecessary group memberships
-* Reset the password if required by policy
-* Document account status
-* Archive data according to organizational procedures
+* Adding users to groups
+* Removing users from groups
+* Verifying memberships
+* Confirming access after changes
 
 ---
 
-# Best Practices
+## Organizational Units (OUs)
+
+Organizational Units (OUs) organize Active Directory objects by department, location, or business function.
+
+Example:
+
+```text id="bb6nnb"
+Company
+│
+├── Finance
+├── Human Resources
+├── Information Technology
+├── Sales
+└── Marketing
+```
+
+OUs simplify administration, delegation, and Group Policy management.
+
+---
+
+## Employee Lifecycle
+
+A typical user account lifecycle includes:
+
+1. Create the account.
+2. Assign the appropriate OU.
+3. Add required security groups.
+4. Verify resource access.
+5. Update account information as needed.
+6. Disable the account when employment ends.
+
+---
+
+## Best Practices
 
 * Verify user identity before making account changes.
 * Follow the principle of least privilege.
 * Document significant account modifications.
-* Avoid sharing passwords through unsecured communication methods.
-* Confirm changes with the user whenever possible.
+* Use security groups instead of assigning permissions directly to users.
+* Disable accounts rather than deleting them when employees leave.
+* Follow organizational security and change management policies.
 
----
 
-# User Communication
-
-### Password Reset
-
-> Your password has been reset. Please sign in using the temporary password provided and create a new password when prompted.
-
-### Group Membership Update
-
-> Your account permissions have been updated. Please sign out and sign back in for the changes to take effect.
-
-### Account Unlock
-
-> Your account has been unlocked. Please try signing in again. If the issue continues, contact IT Support for additional assistance.
-
----
-
-# Related Articles
-
-* Windows User Profile Troubleshooting
-* Microsoft Office Installation
-* Microsoft Outlook Configuration
-* Password Reset and Account Lockout
-* User Onboarding Checklist
