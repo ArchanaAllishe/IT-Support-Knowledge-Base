@@ -106,12 +106,3 @@ A Data Source Name (DSN) stores connection settings used by applications.
 
 For business applications used by multiple users on the same computer, a **System DSN** is commonly preferred.
 
----
-
-## Related Articles
-
-* Database Fundamentals
-* Windows Troubleshooting
-* Network Troubleshooting
-* DNS and DHCP Fundamentals
-* Active Directory User Account Management
