@@ -14,6 +14,10 @@ ODBC is commonly used by:
 * Legacy desktop software
 * Enterprise systems that connect to SQL Server databases
 
+![ODBC Overview](images/odbc-overview.png)
+
+> **Quick Tip:** ODBC acts as a standard interface between applications and databases, allowing software to connect to SQL Server and other databases without requiring database-specific code.
+
 ---
 
 ## Why is ODBC Important?
@@ -50,6 +54,10 @@ A typical ODBC connection includes:
 
 ODBC connectivity usually involves several layers.
 
+![ODBC Architecture](images/odbc-architecture.png)
+
+> **Quick Tip:** Every ODBC connection passes through several layers, including the application, Driver Manager, ODBC driver, DSN, SQL Server, and the database. Understanding this flow helps identify where connection problems occur.
+
 | Layer                   | Description                                                   |
 | ----------------------- | ------------------------------------------------------------- |
 | **Application**         | The program requesting database access.                       |
@@ -58,6 +66,7 @@ ODBC connectivity usually involves several layers.
 | **DSN**                 | Saved connection configuration.                               |
 | **SQL Server**          | Database server hosting the data.                             |
 | **Database**            | The specific database being accessed.                         |
+
 
 ---
 
@@ -84,6 +93,10 @@ When troubleshooting ODBC issues, verify:
 ## User DSN vs System DSN
 
 A Data Source Name (DSN) stores connection settings used by applications.
+
+![DSN Comparison](images/dsn-comparison.png)
+
+> **Quick Tip:** System DSNs are commonly used for shared business applications, while User DSNs are better suited for personal or testing environments.
 
 | DSN Type       | Description                                 | Common Use                       |
 | -------------- | ------------------------------------------- | -------------------------------- |
